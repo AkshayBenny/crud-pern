@@ -18,6 +18,13 @@ function Header() {
         />
         <h1 className="logo name">Keep</h1>
       </div>
+      <div className="input-cont">
+        <img
+          src="https://img.icons8.com/ios/60/000000/search--v5.png"
+          alt="search-icon"
+        />
+        <input type="text" />
+      </div>
     </div>
   );
 }
