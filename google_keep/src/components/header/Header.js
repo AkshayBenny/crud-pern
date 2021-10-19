@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="header-cont">
+    <header className="header-cont">
       <div className="settings-icon-cont">
         <img
           src="https://img.icons8.com/ios-glyphs/60/000000/menu--v1.png"
@@ -12,11 +12,11 @@ function Header() {
       </div>
       <div className="logo-cont">
         <img
-          className="logo icon"
+          className="logo licon"
           src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png"
           alt="logo"
         />
-        <h1 className="logo name">Keep</h1>
+        <h1 className="logo lname">Keep</h1>
       </div>
       <div className="input-cont">
         <img
@@ -25,7 +25,7 @@ function Header() {
         />
         <input type="text" />
       </div>
-    </div>
+    </header>
   );
 }
 
