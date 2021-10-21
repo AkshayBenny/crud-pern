@@ -3,5 +3,5 @@ footer {
   color: rgb(146, 146, 146);
   position: absolute;
   bottom: 0;
-  left: 50%;
+  width: 100%;
 }
