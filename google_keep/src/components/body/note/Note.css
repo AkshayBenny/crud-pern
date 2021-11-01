@@ -18,6 +18,10 @@
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+  @media only screen and (max-width: 479px) {
+    font-size: 14px;
+    width: 100%;
+  }
 }
 
 .note-cont:hover {
@@ -35,4 +39,21 @@
   float: left;
   padding: 6px 12px 24px 0px;
   font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .note-cont {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .note-cont {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .note-cont {
+    font-size: 14px;
+    width: 100%;
+  }
 }
