@@ -4,12 +4,6 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header-cont">
-      <div className="settings-icon-cont">
-        <img
-          src="https://img.icons8.com/ios-glyphs/60/000000/menu--v1.png"
-          alt="setting-icon"
-        />
-      </div>
       <div className="logo-cont">
         <img
           className="logo licon"
